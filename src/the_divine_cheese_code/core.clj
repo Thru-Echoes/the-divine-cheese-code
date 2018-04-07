@@ -1,8 +1,5 @@
 (ns the-divine-cheese-code.core
-  (:import java.util.HashMap
-           java.util.ArrayList)
   (:require [clojure.java.browse :as browse]
-            [clojure.data.json :as json]
             [the-divine-cheese-code.visualization.svg :refer [xml]])
   (:gen-class))
 ;; Ensure that the SVG code is evaluated
@@ -51,7 +48,3 @@
          template
          (spit filename))
     (browse/browse-url (url filename))))
-
-(defn make-hashmaps
-  [n]
-  (repeatedly n #(HashMap.)))
