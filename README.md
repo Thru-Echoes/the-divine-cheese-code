@@ -4,7 +4,7 @@ Look. We really need this cheese back. It ain't no joke. And Clojure is going to
 
 ## Installation
 
-Download from [https://github.com/Thru-Echoes/the-divine-cheese-code](this link!)
+Download from [this link!](https://github.com/Thru-Echoes/the-divine-cheese-code)
 
 ## Usage
 
