@@ -2,11 +2,12 @@
   (:require [clojure.java.browse :as browse]
             [the-divine-cheese-code.visualization.svg :refer [xml]])
   (:gen-class))
-;; Ensure that the SVG code is evaluated
-;; Refer the namespace so that you don't have to use the
-;; fully qualified name to reference svg functions
+;; Namespace: the-divine-cheese-code
+;; :require Java's Browse class :as browse
+;; :require visualization/svg.clj and :refer xml fn
+;; Great! 
 
-
+;; Set Lat / Lng locations of cheeses 
 (def heists [{:location "Cologne, Germany"
               :cheese-name "Archbishop Hildebold's Cheese Pretzel"
               :lat 50.95
@@ -28,6 +29,7 @@
               :lat 41.90
               :lng 12.45}])
 
+;; Get local URL relative to filename 
 (defn url
   [filename]
   (str "file:///"
@@ -35,11 +37,13 @@
        "/"
        filename))
 
+;; Post HTML template with CSS 
 (defn template
   [contents]
   (str "<style>polyline { fill: none; stroke: #5881d8; stroke-width: 3;}</style>"
        contents))
 
+;; Thread. Thread. Thread! 
 (defn -main
   [& args]
   (let [filename "map.html"]
