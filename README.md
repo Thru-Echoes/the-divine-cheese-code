@@ -1,36 +1,34 @@
 # the-divine-cheese-code
 
-FIXME: description
+Look. We really need this cheese back. It ain't no joke. And Clojure is going to help us solve this riddle...
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download from [https://github.com/Thru-Echoes/the-divine-cheese-code](this link!)
 
 ## Usage
 
-FIXME: explanation
+Very easy! 
 
-    $ java -jar the-divine-cheese-code-0.1.0-standalone.jar [args]
+    $ java -jar the-divine-cheese-code-1.0.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+This is that cheese
+
+![That cheese](https://i1.wp.com/www.onegreenplanet.org/wp-content/uploads/2015/04/Roasted-Garlic-Herb-Cream-Cheese_Boursin.jpg?fit=1200%2C800)
 
 ## Examples
 
-...
+See the cheese.
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+- [ ] Olives gets nothing on Firefox and Chrome...
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Thru-Echoes
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
